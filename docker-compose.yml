@@ -1,7 +1,7 @@
 services:
   ontime:
     container_name: ontime
-    image: getontime/ontime:latest
+    image: janstegemann/ontime:latest
     ports:
       - "4001:4001/tcp"
       - "8888:8888/udp"
