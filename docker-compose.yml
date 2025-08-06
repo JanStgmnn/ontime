@@ -9,6 +9,7 @@ services:
     volumes:
       - "./ontime-data:/data/"
       - "/usr/local/share/fonts:/usr/local/share/fonts"
+      - "/etc/fonts:/etc/fonts"
     environment:
       - TZ=Europe/Berlin
     restart: unless-stopped
