@@ -9,5 +9,5 @@ services:
     volumes:
       - "./ontime-data:/data/"
     environment:
-      - TZ=Asia/Singapore
+      - TZ=Europe/Berlin
     restart: unless-stopped
